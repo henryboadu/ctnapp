@@ -1,0 +1,8 @@
+.background-color{
+    --background: rgba(0, 0, 0, 0.8);
+}
+.text-color{
+    color: aliceblue;
+    margin-top: 150px;
+   
+}
