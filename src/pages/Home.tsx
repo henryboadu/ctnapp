@@ -55,9 +55,6 @@ const home: React.FC = () => {
         <img src="https://i.postimg.cc/kX0Mgpvz/IMG-0276-2.jpg"/>
       </IonSlide>
       <IonSlide>
-      <img src="https://i.postimg.cc/prFhgCPx/3-Z7-A122611111.jpg"/>
-      </IonSlide>
-      <IonSlide>
       <img src="https://i.postimg.cc/s2Lxrg1d/uoload-3.jpg"/>
       </IonSlide>
       <IonSlide>
@@ -109,6 +106,28 @@ const home: React.FC = () => {
             <IonLabel >Associations (10+ Employees)</IonLabel>
           </IonItem> 
         </IonCard>
+        <IonCard color="dark">
+             <div className="ion-text-center">
+            <h1>Meet Our Team</h1>
+          </div>
+          </IonCard>
+          <IonCard>
+             <IonSlides pager={true} options={slideOpts}>
+      <IonSlide>
+      <img src="https://i.postimg.cc/mk5fXc6n/founder.jpg" />
+      </IonSlide>
+      <IonSlide>
+        <img src="https://i.postimg.cc/RFvBNxHg/derben.jpg"/>
+      </IonSlide>
+      <IonSlide>
+      <img src="https://i.postimg.cc/gJ4Phtym/gottfried.jpg"/>
+      </IonSlide>
+      <IonSlide>
+      <img src="https://i.postimg.cc/Gt2nxPzY/ohemeng.jpg"/>
+      </IonSlide>
+    </IonSlides> 
+          </IonCard>
+         
         <IonGrid>
               <IonRow>
                 <IonCol>
@@ -134,7 +153,7 @@ const home: React.FC = () => {
           <img src="https://i.postimg.cc/yNrywQxN/email.png" height="20" width="20"/>
         </div> 
        <div className="ion-text-center">
-         <p>Info@Connecttradnetwork.Com</p>
+         <p>admin@connecttradnetwork.org</p>
          </div>
          <div className="ion-text-center">
            <IonButton routerLink="/Contact Us" color="warning">Contact Us Now</IonButton>
@@ -144,6 +163,7 @@ const home: React.FC = () => {
                 </IonCol>
               </IonRow>
             </IonGrid>
+       
       </IonContent>
     </IonPage>
   );
