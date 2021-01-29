@@ -44,7 +44,6 @@
                 <IonCol size="4">
                 </IonCol>
               </IonRow>
-             
         </IonGrid> <h2 className="ion-text-center">Let's Connect Now</h2>
             <IonGrid>
               <IonRow>
@@ -67,6 +66,36 @@
                 </IonCol>
               </IonRow>
             </IonGrid>
+            <div className="ion-text-center">
+          <img src="https://i.postimg.cc/cLrT1G3S/address.png" height="20" width="20"/>
+        </div> 
+       <div className="ion-text-center">
+         <p>P.0 Box CT 4030 Cantonments.Accra</p>
+         </div>
+         <div className="ion-text-center">
+          <img src="https://i.postimg.cc/3N95hQvG/phone.png" height="20" width="20"/>
+        </div> 
+       <div className="ion-text-center">
+         <p>(233) 205 214. 755 (Ghana)</p>
+         </div>
+         <div className="ion-text-center">
+          <img src="https://i.postimg.cc/3N95hQvG/phone.png" height="20" width="20"/>
+        </div> 
+       <div className="ion-text-center">
+         <p>(+1).213.528.0955 (USA)</p>
+         </div>
+         <div className="ion-text-center">
+          <img src="https://i.postimg.cc/yNrywQxN/email.png" height="20" width="20"/>
+        </div> 
+       <div className="ion-text-center">
+         <p>Info@Connecttradnetwork.Com</p>
+         </div>
+         <div className="ion-text-center">
+           <IonButton routerLink="/Contact Us" color="warning">Contact Us Now</IonButton>
+         </div>
+         <IonItem>
+           
+         </IonItem>
           </IonContent>
       </IonPage>
     );

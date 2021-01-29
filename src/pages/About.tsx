@@ -35,12 +35,15 @@ const about: React.FC = () => {
              <IonTitle>About Us</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <div className="ion-text-center">
+        <img src='https://i.postimg.cc/k5qfK1Y1/best-about-us-pages.jpg' />
+      </div>
+      <IonContent>
       <IonGrid>
       <IonRow>
         <IonCol>
         <IonCard>
-          <IonItem>
+          <IonItem color="dark">
               <p>
               The Connect Trade Network (CTN®) is a 
               resource community of individuals and businesses 
@@ -49,14 +52,14 @@ const about: React.FC = () => {
               to grow their businesses globally.
               </p> 
           </IonItem>
-          <IonItem>
+          <IonItem color="warning">
           <p>The network provides members with opportunities 
               for personal,skills and organizational development 
               through corporate visits, round table discussions, 
               training sessions, events, exhibitions and forums with 
               stakeholders from diverse industries. </p>
           </IonItem>
-          <IonItem>
+          <IonItem color="dark">
           <p>CTN® is designed to provide a platform for manufacturers 
               and suppliers with interest in marketing and selling 
               their services and goods globally. CTN® is a prime trade 
@@ -94,7 +97,6 @@ const about: React.FC = () => {
             <IonLabel>SUSTAINABILITY</IonLabel>
           </IonItem>
         </IonCard>
-        
         </IonCol>
       </IonRow>
     </IonGrid>
