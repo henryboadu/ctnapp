@@ -7,7 +7,7 @@ const login: React.FC = () => {
     
     <IonPage>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        <IonHeader>
           <IonToolbar color="warning">
           <IonButtons slot="start">
           <IonBackButton text="Back" icon="buttonIcon"/>
@@ -17,12 +17,12 @@ const login: React.FC = () => {
         </IonHeader>
     <IonCard>
       <IonItem>
-            <IonLabel position="floating">Name</IonLabel>
-            <IonInput type="text" placeholder=""></IonInput>
+            <IonLabel position="floating">Email</IonLabel>
+            <IonInput type="email" placeholder=""></IonInput>
           </IonItem>
           <IonItem>
-            <IonLabel position="floating">Email</IonLabel>
-            <IonInput type="text" placeholder=""></IonInput>
+            <IonLabel position="floating">Password</IonLabel>
+            <IonInput type="password" placeholder=""></IonInput>
           </IonItem>   
           <p className="ion-text-center"><IonRouterLink href="/Login">Forgot Password</IonRouterLink> </p>
     </IonCard>
@@ -36,7 +36,6 @@ const login: React.FC = () => {
                 <IonCol size="4">
                 </IonCol>
               </IonRow>
-             
         </IonGrid>
         </IonContent>
     </IonPage>

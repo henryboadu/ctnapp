@@ -4,7 +4,7 @@ import ExploreContainer from '../components/ExploreContainer';
 import './Account.css';
 
 
-const faq: React.FC = () => {
+const Account: React.FC = () => {
   return (
     <IonPage >
       <IonContent class="bg-image" fullscreen>
@@ -34,4 +34,4 @@ const faq: React.FC = () => {
   );
 };
 
-export default faq;
+export default Account;

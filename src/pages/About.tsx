@@ -30,9 +30,9 @@ import './About.css';
 const about: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader collapse="condense">
+      <IonHeader>
         <IonToolbar class="ion-text-center" color="warning">
-             <IonTitle>About Us</IonTitle>
+             <IonTitle> </IonTitle>
         </IonToolbar>
       </IonHeader>
       <div className="ion-text-center">

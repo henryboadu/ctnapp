@@ -4,10 +4,9 @@ import { IonContent, IonHeader, IonButtons, IonBackButton, IonPage, IonTitle, Io
 const register: React.FC = () => {
   
   return (
-    
     <IonPage>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
+        <IonHeader>
           <IonToolbar color="warning">
           <IonButtons slot="start">
           <IonBackButton text="Back" icon="buttonIcon"/>
@@ -15,7 +14,6 @@ const register: React.FC = () => {
             <IonTitle class="ion-text-center">Register</IonTitle>
           </IonToolbar>
         </IonHeader>
-
     <IonCard>
       <IonItem>
             <IonLabel position="floating">Name</IonLabel>
@@ -34,20 +32,17 @@ const register: React.FC = () => {
     </IonCard>
     <IonGrid>
               <IonRow>
-                <IonCol size="4">
+                <IonCol size="3">
                 </IonCol>
-                <IonCol class="ion-text-center" size="4">
+                <IonCol class="ion-text-center" size="5">
                 <IonButton size="large" href="#" class="ion-text-center" shape="round"color="warning">Register</IonButton>
                 </IonCol>
                 <IonCol size="4">
                 </IonCol>
               </IonRow>
-             
         </IonGrid>
         </IonContent>
     </IonPage>
-    
-    
   );
 };
 

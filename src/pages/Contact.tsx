@@ -10,7 +10,7 @@
       
       <IonPage>
         <IonContent fullscreen>
-          <IonHeader collapse="condense">
+          <IonHeader>
             <IonToolbar color="warning">
               <IonTitle class="ion-text-center">Contact Us</IonTitle>
             </IonToolbar>
