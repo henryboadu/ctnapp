@@ -27,8 +27,6 @@ import {
          from '@ionic/react';
          
 import { pin, wifi, wine, warning, walk,accessibility, personOutline, peopleCircleOutline, peopleOutline, } from 'ionicons/icons';
-import './Home.css';
-import './main.js';
 
 const projects: React.FC = () => {
   return (
@@ -38,10 +36,18 @@ const projects: React.FC = () => {
              <IonTitle>Projects</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <div className="ion-text-center">
-        <img src='http://www.connecttradenetwork.org/images/logo.png' height="80" width="180" />
-      </div>
-   
+      <IonContent>
+          <div className="dropdown">
+           <button className="dropbtn">Projects Undertake</button>
+          <div className="dropdown-content">
+          <a href="">CTN Development Seminar</a>
+          <a href="">CTN Community Outreach</a>
+          <a href="">CTN Incubator Program </a>
+          <a href="">CTN Accelerator Competition </a>
+          <a href="">CTN Grant</a>
+          </div>
+          </div>
+      </IonContent>
     </IonPage>
   );
 };

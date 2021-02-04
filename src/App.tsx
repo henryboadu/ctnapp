@@ -59,18 +59,18 @@ const App: React.FC = () => (
             <IonIcon icon={home} />
             <IonLabel>Home</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="About Us" href="/About Us">
+          {/* <IonTabButton tab="About Us" href="/About Us">
             <IonIcon icon={peopleCircle} />
             <IonLabel>About Us</IonLabel>
-          </IonTabButton>
+          </IonTabButton> */}
           <IonTabButton tab="Contact Us" href="/Contact Us">
             <IonIcon icon={callOutline} />
             <IonLabel>Contact Us</IonLabel>
           </IonTabButton> 
-          {/* <IonTabButton tab="Projects" href="/Projects">
+          <IonTabButton tab="Projects" href="/Projects">
             <IonIcon icon={personOutline} />
             <IonLabel>Projects</IonLabel>
-          </IonTabButton> */}
+          </IonTabButton>
           <IonTabButton tab="Events" href="/Events">
             <IonIcon icon={personOutline} />
             <IonLabel>Events</IonLabel>

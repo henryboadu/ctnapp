@@ -1,10 +1,11 @@
-.bg-image{
-    background: ('http://www.connecttradenetwork.org/images/logo.png');
-}
+
 .text-color{
-    color: rgb(0, 0, 0);
-    margin-top: 150px;
-   
+    color: rgb(255, 255, 255);
+    padding-top: 150px;
+}
+.mgap{
+    
+    margin-top: 150px;;
 }
 /* ion-content {
     --background: url('http://www.connecttradenetwork.org/images/about/pic5.jpg');
