@@ -32,9 +32,9 @@ const register: React.FC = () => {
     </IonCard>
     <IonGrid>
               <IonRow>
-                <IonCol size="3">
+                <IonCol size="4">
                 </IonCol>
-                <IonCol class="ion-text-center" size="5">
+                <IonCol class="ion-text-center" size="4">
                 <IonButton size="large" href="#" class="ion-text-center" shape="round"color="warning">Register</IonButton>
                 </IonCol>
                 <IonCol size="4">

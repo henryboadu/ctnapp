@@ -63,10 +63,6 @@ const App: React.FC = () => (
             <IonIcon icon={peopleCircle} />
             <IonLabel>About Us</IonLabel>
           </IonTabButton> */}
-          <IonTabButton tab="Contact Us" href="/Contact Us">
-            <IonIcon icon={callOutline} />
-            <IonLabel>Contact Us</IonLabel>
-          </IonTabButton> 
           <IonTabButton tab="Projects" href="/Projects">
             <IonIcon icon={personOutline} />
             <IonLabel>Projects</IonLabel>
@@ -75,11 +71,14 @@ const App: React.FC = () => (
             <IonIcon icon={personOutline} />
             <IonLabel>Events</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="Account" href="/Account">
+          <IonTabButton tab="Login" href="/Login">
             <IonIcon icon={personOutline} />
             <IonLabel>Account</IonLabel>
           </IonTabButton>
-         
+          <IonTabButton tab="Contact Us" href="/Contact Us">
+            <IonIcon icon={callOutline} />
+            <IonLabel>Contact Us</IonLabel>
+          </IonTabButton> 
         </IonTabBar>
       </IonTabs>
     </IonReactRouter>

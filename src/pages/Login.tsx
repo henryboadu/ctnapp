@@ -25,6 +25,8 @@ const login: React.FC = () => {
             <IonInput type="password" placeholder=""></IonInput>
           </IonItem>   
           <p className="ion-text-center"><IonRouterLink href="/Login">Forgot Password</IonRouterLink> </p>
+          <p className="ion-text-center">New here?</p>
+          <p className="ion-text-center"><IonRouterLink href="/Register">Click here to register</IonRouterLink> </p>
     </IonCard>
     <IonGrid>
               <IonRow>
