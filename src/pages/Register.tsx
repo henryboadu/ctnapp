@@ -79,9 +79,12 @@ const register: React.FC = () => {
               <IonSelectOption value="red">Shopping Centers</IonSelectOption>
               <IonSelectOption value="red">Sports & Recreation</IonSelectOption>
               <IonSelectOption value="red">Transportation </IonSelectOption>
-           
             </IonSelect>
           </IonItem>
+          <IonItem>
+            <IonLabel position="floating">Password</IonLabel>
+            <IonInput type="password" placeholder=""></IonInput>
+          </IonItem> 
           {/* <IonItemDivider>Your Selections</IonItemDivider>
           <IonItem>Gender: {gender ?? '(none selected)'}</IonItem>
           <IonItem>Hair Color: {hairColor}</IonItem> */}
