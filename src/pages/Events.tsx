@@ -98,7 +98,7 @@ const Events: React.FC = () => {
           </div>
             </IonCard>
           </IonItem>
-          <IonCard color="dark">
+          <IonCard color="warning">
              <div className="ion-text-center">
             <h1>GTE 2020</h1>
           </div>
@@ -131,7 +131,7 @@ const Events: React.FC = () => {
             </IonSlide>
           </IonSlides> 
                 </IonCard>
-                <IonCard color="dark">
+                <IonCard color="warning">
              <div className="ion-text-center">
             <h1>GTE 2019</h1>
           </div>

@@ -96,7 +96,7 @@ const projects: React.FC = () => {
             <IonCard>
           <IonItem color="dark">
             <p>
-            CTN Accelerator Competition </p>
+            The Accelerator Competition is an annual programme that presents the opportunity for startups to pitch their innovations with the aim of seeking support. The competition is integrated in the second session of Ghana Trade Exhibition (GTE) in December every year.  </p>
           </IonItem>
         </IonCard>
         <IonItem>
