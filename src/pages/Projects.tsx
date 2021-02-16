@@ -47,12 +47,13 @@ const projects: React.FC = () => {
           <a href="">CTN Grant</a>
           </div>
           </div> */}
-          <IonItem>
-            <IonCard>
+          <IonGrid>
+            <IonRow>
+              <IonCol>
+                 <IonItem>
                <div className="ion-text-center">
             <h1>CTN Dvelopment Seminar</h1>
           </div>
-            </IonCard>
           </IonItem>
             <IonCard>
           <IonItem color="warning">
@@ -62,11 +63,9 @@ const projects: React.FC = () => {
           </IonItem>
         </IonCard>
         <IonItem>
-            <IonCard>
                <div className="ion-text-center">
             <h1>CTN Community Outreach</h1>
           </div>
-            </IonCard>
           </IonItem>
             <IonCard>
           <IonItem color="dark">
@@ -75,11 +74,9 @@ const projects: React.FC = () => {
           </IonItem>
         </IonCard>
         <IonItem>
-            <IonCard>
                <div className="ion-text-center">
             <h1>CTN Incubator Program</h1>
           </div>
-            </IonCard>
           </IonItem>
             <IonCard>
           <IonItem color="warning">
@@ -87,11 +84,9 @@ const projects: React.FC = () => {
           </IonItem>
         </IonCard>
         <IonItem>
-            <IonCard>
                <div className="ion-text-center">
             <h1>CTN Accelerator Competition</h1>
           </div>
-            </IonCard>
           </IonItem>
             <IonCard>
           <IonItem color="dark">
@@ -100,17 +95,18 @@ const projects: React.FC = () => {
           </IonItem>
         </IonCard>
         <IonItem>
-            <IonCard>
                <div className="ion-text-center">
             <h1>CTN Grant</h1>
           </div>
-            </IonCard>
           </IonItem>
             <IonCard>
           <IonItem color="warning">
             <p>As part of our humanitarian duties, CTN has made five (5) grants available to the public. This is another way we give back and connect to our communities. Recipients of the CTN Grants are announced during CTN tradeshows.  </p>
           </IonItem>
         </IonCard>
+                </IonCol>
+            </IonRow>
+          </IonGrid>
       </IonContent>
     </IonPage>
   );

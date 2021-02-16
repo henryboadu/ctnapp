@@ -70,7 +70,7 @@ const home: React.FC = () => {
           <IonCard color="warning">
              <div className="ion-text-center">
             <h1>Why Connect Trade Network?</h1>
-          </div>
+            </div>
           </IonCard>
          
         <div className="ion-text-center">
